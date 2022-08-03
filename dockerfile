@@ -2,9 +2,13 @@ FROM continuumio/miniconda3
 
 MAINTAINER lishuangshuang <lishuangshuang3@mgi-tech.com>
 
-ENV LC_ALL en_US.UTF-8
+RUN apt-get update
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y locales && \
+    sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen && \
+    dpkg-reconfigure --frontend=noninteractive locales
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US.UTF-8
+ENV LC_ALL en_US.UTF-8
 ENV HOME /home/DNBC4tools
 ENV XDG_CONFIG_HOME /home/DNBC4tools
 
@@ -29,5 +33,5 @@ RUN pip install tarjan==0.2.3.2
 
 RUN R -e "devtools::install_github(c('chris-mcginnis-ucsf/DoubletFinder','ggjlab/scHCL','ggjlab/scMCA'),force = TRUE);"
 
-VOLUME ["/data","/database"]
-WORKDIR /data
+VOLUME ["/data","/database",'/result']
+WORKDIR /result
