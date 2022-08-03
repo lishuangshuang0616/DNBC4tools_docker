@@ -13,7 +13,7 @@ WORKDIR /home/DNBC4tools
 
 RUN conda update -q -y conda
 RUN conda install -q -y wget
-RUN wget https://github.com/lishuangshuang0616/DNBC4tools_docker/blob/main/DNBC4tools.yaml
+RUN wget https://raw.githubusercontent.com/lishuangshuang0616/DNBC4tools_docker/main/DNBC4tools.yaml
 RUN conda env create -f DNBC4tools.yaml -n DNBC4tools
 
 RUN rm DNBC4tools.yaml
