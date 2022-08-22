@@ -87,7 +87,6 @@ dependencies:
   - icu=69.1=h9c3ff4c_0
   - importlib-metadata=4.11.3=py38h06a4308_0
   - importlib_metadata=4.11.3=hd3eb1b0_0
-  - java-jdk=8.0.92=1
   - joblib=1.1.0=pyhd3eb1b0_0
   - jpeg=9e=h7f8727e_0
   - kernel-headers_linux-64=2.6.32=he073ed8_15
