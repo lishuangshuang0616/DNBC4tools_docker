@@ -74,7 +74,12 @@ dependencies:
   - dask-core=2022.7.0=py38h06a4308_0
   - datatable=0.11.1=py38hc10631b_0
   - expat=2.4.9=h6a678d5_0
+  - font-ttf-dejavu-sans-mono=2.37=hd3eb1b0_0
+  - font-ttf-inconsolata=2.001=hcb22688_0
+  - font-ttf-source-code-pro=2.030=hd3eb1b0_0
+  - font-ttf-ubuntu=0.83=h8b1ccd4_0
   - fontconfig=2.14.1=h4c34cd2_2
+  - fonts-anaconda=1=h8fa9717_0
   - fonttools=4.25.0=pyhd3eb1b0_0
   - freetype=2.12.1=h4a9f257_0
   - fribidi=1.0.10=h7b6447c_0
