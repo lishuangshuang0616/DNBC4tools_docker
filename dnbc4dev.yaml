@@ -1,9 +1,8 @@
-name: dnbc4tools
+name: dnbc4merge
 channels:
-  - http://mirrors.bfsu.edu.cn/anaconda/pkgs/r
-  - http://mirrors.bfsu.edu.cn/anaconda/cloud/bioconda
-  - http://mirrors.bfsu.edu.cn/anaconda/pkgs/main
   - http://mirrors.bfsu.edu.cn/anaconda/cloud/conda-forge
+  - http://mirrors.bfsu.edu.cn/anaconda/pkgs/main
+  - defaults
   - http://mirrors.bfsu.edu.cn/anaconda/pkgs/r/
   - http://mirrors.bfsu.edu.cn/anaconda/pkgs/main/
   - http://mirrors.bfsu.edu.cn/anaconda/pkgs/free/
@@ -60,9 +59,9 @@ dependencies:
   - bwidget=1.9.11=1
   - bzip2=1.0.8=h7b6447c_0
   - c-ares=1.19.0=h5eee18b_0
-  - ca-certificates=2023.5.7=hbcca054_0
+  - ca-certificates=2023.05.30=h06a4308_0
   - cairo=1.16.0=hb05425b_4
-  - certifi=2023.5.7=pyhd8ed1ab_0
+  - certifi=2023.7.22=py38h06a4308_0
   - cffi=1.15.1=py38h74dc2b5_0
   - charset-normalizer=2.0.4=pyhd3eb1b0_0
   - cloudpickle=2.2.1=py38h06a4308_0
@@ -163,7 +162,7 @@ dependencies:
   - numpy-base=1.23.5=py38h1e6e340_0
   - oniguruma=6.9.7.1=h27cfd23_0
   - openblas=0.3.21=pthreads_h320a7e8_3
-  - openssl=1.1.1u=hd590300_0
+  - openssl=1.1.1v=h7f8727e_0
   - packaging=23.0=py38h06a4308_0
   - pandas=1.5.3=py38h417a72b_0
   - pango=1.50.7=h05da053_0
@@ -176,6 +175,7 @@ dependencies:
   - pixman=0.40.0=h7f8727e_1
   - plotly=5.9.0=py38h06a4308_0
   - pooch=1.4.0=pyhd3eb1b0_0
+  - pyahocorasick=2.0.0=py38h1de0b5d_0
   - pycparser=2.21=pyhd3eb1b0_0
   - pynndescent=0.5.4=pyhd3eb1b0_0
   - pyopenssl=23.0.0=py38h06a4308_0
@@ -383,3 +383,4 @@ dependencies:
   - zipp=3.11.0=py38h06a4308_0
   - zlib=1.2.13=h166bdaf_4
   - zstd=1.5.5=hc292b87_0
+  
