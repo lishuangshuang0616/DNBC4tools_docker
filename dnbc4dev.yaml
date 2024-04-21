@@ -198,8 +198,3 @@ dependencies:
   - zipp=3.17.0
   - zlib=1.2.13
   - zstd=1.5.5
-  - pip:
-      - cython==0.29.37
-      - polars-lts-cpu==0.20.2
-      - pyahocorasick==2.0.0
-      - tarjan==0.2.4
